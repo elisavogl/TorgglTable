@@ -1,0 +1,506 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+
+div#resultsBooking{
+	
+	height:250px;
+	width:600px;
+}
+#loading
+{
+ text-align:center; 
+ background: url("http://www.localhost/torggltable/wp-content/uploads/2018/12/tenor.gif") no-repeat center; 
+ height: 150px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+div#dynamic_slide_show.carousel.slide{
+	margin-bottom:100px;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+
+/*Restaurant-description.php*/
+
+#site-navigation-wrap .dropdown-menu {
+    display: block;
+    float: none;
+    position: relative;
+    top: auto;
+    left: auto;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+@media (min-width: 1000px) {
+	img#restaurantimage{
+	width:26%;
+	height:170px;
+	background-repeat: no-repeat;
+		margin-top: -10%;
+		margin-left: 3%;
+
+		
+	}
+		div#name_address{
+	 	margin-top: 5%;
+		margin-left: 30%;
+	}
+	
+	ul#myrest_Tab{	  
+		margin-top: 3%;
+	  margin-left: 3%;
+		width: 800px;
+	}
+	
+	div#overview{
+	width: 900px;
+  column-count: 3;
+  margin-top: 4%;
+  margin-left: 4%;
+	}
+		div#photos{
+		margin-left: 5%;
+    margin-top: 2%;
+	}
+	
+	figure.gallery-item{
+	display:inline;
+  }
+	
+	div#fooddrinks{
+		
+		width: 650px;
+		margin-top: 2%;
+		margin-left: 4%;
+	}
+	
+		div#reviews{
+		width: 650px;
+		margin-top: 6%;
+		margin-left: 3%;
+		text-align: left;
+	}
+
+	.display-container{
+		margin-left: 3%;
+	  margin-top: 2%;
+		width: 500px;
+   	height:100px;
+	}
+	.display-left{
+		margin-bottom: 60%;
+		margin-left: 60%;
+	}
+}
+
+@media (max-width: 1000px) {
+	
+}
+	
+
+
+
+/* End Restaurant Description  Page */
+
+
+
+
+div#DivOfFilters.col-md-3{
+	margin-left:20px;
+}
+h4.page-header{
+	padding-left:15px;
+}
+select{
+	width:180px;
+	font-size:15px;
+}
+
+#site-navigation-wrap .dropdown-menu {
+    display: block;
+    float: none;
+    position: relative;
+    top: auto;
+    left: auto;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+div.filterDiv{
+	float:left;
+	width:25%;
+	background-color:#E8E8E8;
+	height:max-height;
+}
+
+div.resultsDiv{
+	float:left;
+	width:75%;
+
+}
+#div.orderByDiv{
+
+}
+
+/*desktop version */
+
+
+
+/*Registration Form and Login Form change colors of buttons and text*/
+
+.um .um-tip:hover,
+.um .um-field-radio.active:not(.um-field-radio-state-disabled) i,
+.um .um-field-checkbox.active:not(.um-field-radio-state-disabled) i,
+.um .um-member-name a:hover,
+.um .um-member-more a:hover,
+.um .um-member-less a:hover,
+.um .um-members-pagi a:hover,
+.um .um-cover-add:hover,
+.um .um-profile-subnav a.active,
+.um .um-item-meta a,
+.um-account-name a:hover,
+.um-account-nav a.current,
+.um-account-side li a.current span.um-account-icon,
+.um-account-side li a.current:hover span.um-account-icon,
+.um-dropdown li a:hover,
+i.um-active-color,
+span.um-active-color
+{
+    color: #910026!important;
+}
+
+.um .um-field-group-head,
+.picker__box,
+.picker__nav--prev:hover,
+.picker__nav--next:hover,
+.um .um-members-pagi span.current,
+.um .um-members-pagi span.current:hover,
+.um .um-profile-nav-item.active a,
+.um .um-profile-nav-item.active a:hover,
+.upload,
+.um-modal-header,
+.um-modal-btn,
+.um-modal-btn.disabled,
+.um-modal-btn.disabled:hover,
+div.uimob800 .um-account-side li a.current,
+div.uimob800 .um-account-side li a.current:hover
+{
+    background: #910026!important;
+}
+
+.um .um-field-group-head:hover,
+.picker__footer,
+.picker__header,
+.picker__day--infocus:hover,
+.picker__day--outfocus:hover,
+.picker__day--highlighted:hover,
+.picker--focused .picker__day--highlighted,
+.picker__list-item:hover,
+.picker__list-item--highlighted:hover,
+.picker--focused .picker__list-item--highlighted,
+.picker__list-item--selected,
+.picker__list-item--selected:hover,
+.picker--focused .picker__list-item--selected {
+    background: #910026!important;
+}
+
+.um input[type=submit]:disabled:hover {
+    background: #f5c24b!important;
+}
+
+.um input[type=submit].um-button,
+.um input[type=submit].um-button:focus,
+.um a.um-button,
+.um a.um-button.um-disabled:hover,
+.um a.um-button.um-disabled:focus,
+.um a.um-button.um-disabled:active {
+    background: #910026!important;
+}
+
+.um .um-button.um-alt:hover, .um input[type=submit].um-button.um-alt:hover {
+    background: #f5c24b!important;
+}
+
+.um .um-button.um-alt, .um input[type=submit].um-button.um-alt {
+
+    background: #910026!important;
+}
+
+.um a.um-link {
+    color: #910026!important;
+}
+
+.um input[type=submit].um-button:hover,
+.um a.um-button:hover {
+    background-color: #f5c24b!important;
+}
+
+.um a.um-link:hover,
+.um a.um-link-hvr:hover {
+    color: #f5c24b!important;
+}
+/*End registration form*/
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+/*Homepage*/
+
+/*HomePage SearchForm and Image*/
+@media (max-width:900px){
+	
+	div#backgroundImageHome{
+		width:100%;
+		display:block;
+	}
+	select#selectPeopleHome,select#selectTimeHome,input#datebookingHome,input#locationinputHome{
+		background-color:rgba(192,192,192,0.5);
+color:white;
+		width:100%;
+	
+	}
+	p#textstory{
+		margin-left:20px;
+		margin-right:20px;
+	}
+	figure.gallery-item{
+	display:none;
+}
+	input#buttonBecomePartHome{
+		border-radius:60%;
+	height:100px;
+		position:absolute;
+		top:420px;
+		left:50px;
+		
+}
+	
+	div#backgroundImageRegister{
+		background-color:#f5c24b;
+
+	}
+	div#backgroundImageRegister{
+background-image: url("http://www.localhost/torggltable/wp-content/uploads/2018/12/restaurantimage-768x508.jpeg");  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+	}
+	p#paragraphRegister{
+		
+		display:none;
+	}
+	h2#headingRegister{
+color:black;
+		position:absolute;
+		font-weight:bold;
+top:0px;
+		left:10px;
+		font-size:25px;
+
+
+	}
+}
+@media only screen and (min-width : 1000px){
+/*Desktop Version*/
+
+	select#selectPeopleHome,select#selectTimeHome,input#datebookingHome,input#locationinputHome{
+		background-color:rgba(192,192,192,0.5);
+color:white;
+		position:absolute;
+		top:350px;
+	}
+	select#selectPeopleHome{
+
+		margin-left:10px;
+	}
+	select#selectTimeHome{
+		left:215px;
+	}	
+	input#datebookingHome{
+		left:470px
+		
+	}
+	input#locationinputHome{
+		left:625px;
+	}
+	input#searchbuttonHome{
+		position:absolute;
+		top:350px;
+		width:150px;
+		left:1000px;
+	}
+
+select#selectPeopleHome{
+	width:200px;}
+
+input#locationinputHome{
+	width:370px;}
+input#datebookingHome{
+	width:150px;
+	}
+select#selectTimeHome{
+	width:200px;}
+	select#selectTimeHome{
+		width:250px;
+	}p#textstory{
+
+	width:450px;
+	font-size:18px;
+	
+
+
+}
+	div#imagesStory{
+		float:left;
+		width:500px;
+		margin-top:105px;
+	}
+	
+div#textStoryandHeading{
+	float:left;
+	margin-right:20px;
+	
+
+}
+figure.gallery-item{
+	display:inline;
+
+}
+
+div#StoryToerggelen{
+height:400px;
+margin:80px;
+
+
+	}input#buttonBecomePartHome{
+	border-radius:50%;
+	height:70px;
+	width:200px;
+		color:#f5c24b;
+	margin-left:50px;
+}
+	p#paragraphRegister{
+		width:200px;
+		color:#f5c24b;
+		font-size:15px;
+		margin-left:40px;
+	}
+	h2#headingRegister{
+color:#f5c24b;
+width:300px;
+		margin-left:40px;
+		padding-top:50px;
+
+
+	}
+
+div#backgroundImageRegister{
+background-image: url("http://www.localhost/torggltable/wp-content/uploads/2018/12/restaurantimage-768x508.jpeg");  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+	background-attachment: fixed;
+	background-size:cover;
+
+	}}
+
+/*end desktop version*/
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+ color: white;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
+
+/*Become part of Toerggltable for restaurant*/
+
+
+
+
+
+/*Scroll Slider Ranking*/
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+	height:300px;
+	margin:50px;
+}
+
+.card {
+    display: inline-block;
+  }
+
+/*Story Törggelen*/
+#storyHeading{
+	margin-top:20px;
+	
+}
+p#storytoerggelen{
+	margin-left:20px;
+	margin-right: 20px;
+
+}
+
+/* SearchResults Page */
+
+/*mobile version*/
+@media (max-width: 1000px) {
+	div#searchform{
+
+		background-color:#dfdfdf
+	}
+}
+
+
+
+/*Desktop Version Results*/
+
+div#tablefilterandResults{
+	width:600px;
+	float:right;
+}
+/* End SearchResults Page */
+
